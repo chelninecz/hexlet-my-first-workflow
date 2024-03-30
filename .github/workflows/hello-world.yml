@@ -2,7 +2,7 @@ name: hello-world
 # on – определяет события, которые запускают воркфлоу
 on: push
 jobs:
-  build:
+  hello:
     runs-on: ubuntu-latest
     steps:
         - run: make say-hello
